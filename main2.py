@@ -46,15 +46,35 @@ session = Session()
 
 #Select and show all of the Person
 #results = session.query(Person).all()
-#for r in results:
- #   print(r)
+#for a in results:
+#   print(a)
 
 #print(results)
 
 #select and show only Person with last name Blue or Cold
-results = session.query(Person).filter(Person.lastname == "Cold")
-for rr in results:
-    print(rr)
+#results = session.query(Person).filter(Person.lastname == "Cold")
+#for r in results:
+#   print(r)
+
+#select and show in terminal for person Page that biger than 40
+#results = session.query(Person).filter(Person.age > 40)
+#for r in results:
+ #print(r)
+
+#select and show in terminal for person First name is like  >> .like("%A%"")
+#results = session.query(Person).filter(Person.firstname.like("%An%"))
+#for l in results:
+ #print(l)
+
+#select and show in terminal for person First name is In  >> .in(anna and mike)
+#results = session.query(Person).filter(Person.firstname.in#(["Ana", "Mike"]))
+#for r in results:
+# print(r)
+
+
+
+
+
 
 
 
