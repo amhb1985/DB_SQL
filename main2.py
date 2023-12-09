@@ -30,17 +30,32 @@ Base.metadata.create_all(bind=engine)
 Session = sessionmaker(bind=engine)
 session = Session()
 
-person = Person(12312, "Mike", "Smith", "m", 35)
+#person = Person(12312, "Mike", "Smith", "m", 35)
+##session.add(person)
+#session.commit()
+#
+#p1 = Person(31234, "Ana", "Blue", "f", 40)
+#p2 = Person(22356, "Bob", "Blue", "m", 45)
+#p3 = Person(12984, "Angela", "Cold", "f", 22)
 
-session.add(person)
-session.commit()
+#session.add(p1)
+#session.add(p2)
+#session.add(p3)
 
-p1 = Person(31234, "Ana", "Blue", "f", 40)
-p2 = Person(22356, "Bob", "Blue", "m", 45)
-p3 = Person(12984, "Angela", "Cold", "f", 22)
+#session.commit()
 
-session.add(p1)
-session.add(p2)
-session.add(p3)
+#Select and show all of the Person
+#results = session.query(Person).all()
+#for r in results:
+ #   print(r)
 
-session.commit()
+#print(results)
+
+#select and show only Person with last name Blue or Cold
+results = session.query(Person).filter(Person.lastname == "Cold")
+for rr in results:
+    print(rr)
+
+
+
+                       
