@@ -8,7 +8,6 @@ Base = declarative_base()
 class Person(Base):
     __tablename__ ="people"
     
-
     ssn = Column("ssn", Integer, primary_key=True )
     firstname = Column("firstname", String)
     lasttname = Column("lasttname", String)
@@ -49,22 +48,7 @@ session.add(p1)
 session.commit()
 
 
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
 
 
 
