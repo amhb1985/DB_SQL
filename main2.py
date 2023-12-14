@@ -137,7 +137,6 @@ t3 = Things(2, "Laptop", p2.ssn)
 t4 = Things(4, "Car", p3.ssn)
 t5 = Things(5, "Book", p3.ssn)
 
-
 #like first t1 we must add each session again and commit them
 session.add(t1)
 session.add(t2)
