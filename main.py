@@ -22,7 +22,6 @@ class Person(Base):
         self.gender = gender
         self.age = age
 
-
     def __repr__(self):
         return f"({self.ssn}) {self.firstname} {self.lasttname} {self.lasttname}  ({self.gender},{self.age})"
 
@@ -36,7 +35,6 @@ session = Session()
 
 person=  Person(12312, "Mike", "Smith", "m", 35)
 
-
 Session.add(person)
 session.commit()
 
@@ -47,7 +45,6 @@ p3 = Person(12984, "Angela", "Cold", "f", 22)
 session.add(p1)
 session.add(p2)
 session.add(p1)
-
 
 session.commit()
 
