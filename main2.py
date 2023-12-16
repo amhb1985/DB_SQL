@@ -172,7 +172,7 @@ session.commit()
  #   print(d)
 
 
-
+#leider der Adresees und der Things table sind nicht in der DB
 
 
 
