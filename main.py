@@ -25,7 +25,6 @@ class Person(Base):
         return f"({self.ssn}) {self.firstname} {self.lasttname} {self.lasttname}  ({self.gender},{self.age})"
 
 engine = create_engine ("psql=:///mydb.db , echo=True")
-
 ## das ist aber Hilfe von GPT für den Pfad inner mac und in der psql (postgres sql DB)
 ## engine = create_engine ("postgresql://username:password@localhost:5432/mydb") 
 Base.metadata.create_all(bind = engine)
