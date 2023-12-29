@@ -12,9 +12,6 @@ from sqlalchemy.orm import sessionmaker
 Base = declarative_base()
 
 
-
-
-
 class Person(Base):
     __tablename__ = "people"
     
@@ -33,13 +30,6 @@ class Person(Base):
 
     def __repr__(self):
         return f"({self.ssn}) {self.firstname} {self.lastname} ({self.gender},{self.age})"
-
-
-
-
-
-
-
 
 
 # ... (vorheriger Code bleibt unverändert) ...
