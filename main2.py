@@ -31,7 +31,6 @@ class Person(Base):
     def __repr__(self):
         return f"({self.ssn}) {self.firstname} {self.lastname} ({self.gender},{self.age})"
 
-
 # ... (vorheriger Code bleibt unverändert) ...
 
 class Things(Base):
@@ -163,6 +162,7 @@ session.commit()
 
 
 #leider der Adresees und der Things table sind nicht in der DB
+# ich werde noch in andere datei probieren.
 
 
 
