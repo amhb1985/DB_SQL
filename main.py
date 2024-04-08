@@ -3,8 +3,11 @@
 #first we must set some settinig in SQLAlchemy like: engine, FK, colums 
 from sqlalchemy import create_engine, ForeignKey, Column, String, Integer, CHAR
 
-#
+#2: This Module allows us as Dev. to define database models
+# in a more concise and declarative way using Python classes
 from sqlalchemy.ext.declarative import declarative_base
+
+
 from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
