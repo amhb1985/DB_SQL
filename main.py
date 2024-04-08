@@ -8,6 +8,9 @@ from sqlalchemy import create_engine, ForeignKey, Column, String, Integer, CHAR
 from sqlalchemy.ext.declarative import declarative_base
 
 
+# 3: In SQLAlchemy, the sessionmaker class is a factory for producing 
+# new Session objects. Sessions are used to interact with the database &
+# perform operations such as adding, updating, deleting, and querying data.
 from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
