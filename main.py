@@ -13,8 +13,12 @@ from sqlalchemy.ext.declarative import declarative_base
 # perform operations such as adding, updating, deleting, and querying data.
 from sqlalchemy.orm import sessionmaker
 
+
+#4:to create a base class for declarative class definitions.
+# This statement is typically found at the beginning of SQLAlchemy model definitions.
 Base = declarative_base()
 
+#5. we will define a new Class as Person :
 class Person(Base):
     __tablename__ ="people"
     
