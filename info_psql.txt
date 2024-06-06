@@ -13,3 +13,6 @@ Password:  (hide/show copy)
 
 # now we can use the python for every one 
  we can finde the Dashborad after register in website pythonanywhere.com (by Anaconda)
+
+ next we must use the console screen to do and test the codees again
+ 
