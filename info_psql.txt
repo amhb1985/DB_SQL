@@ -47,3 +47,6 @@ now we can seethe both of them running together
 i mean the both of terminal online under 
 1.bash terminal 
 2,.psql terminal 
+
+for the backslash: \
+option + shift + 7
