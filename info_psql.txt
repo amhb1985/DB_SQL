@@ -50,3 +50,5 @@ i mean the both of terminal online under
 
 for the backslash: \
 option + shift + 7
+
+but ist not working under bash terminal in Linux
