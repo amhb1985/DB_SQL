@@ -52,3 +52,9 @@ for the backslash: \
 option + shift + 7
 but ist not working under bash terminal in Linux!!
 for the solving this we can just use th Right option NOT left option key
+
+so then we test the first query for our Database under pg4e 
+SELCT * FROM pg4e_meta ;
+so we can all of selected in our table
+
+# after run the Queri we can see the both Termial working and show the result inside the table
