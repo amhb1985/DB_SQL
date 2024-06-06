@@ -15,4 +15,11 @@ Password:  (hide/show copy)
  we can finde the Dashborad after register in website pythonanywhere.com (by Anaconda)
 
  next we must use the console screen to do and test the codees again
- 
+
+#after that we r going to the consule we r choosing the bash consule under the website :
+
+now.... let do it weird !!!
+1. we try  with pwd >>>
+we can see  our name here: home/mhb1985 
+
+we can see that we cannnot run the both of code pwd or ls inside of our psql
