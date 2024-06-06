@@ -1,1 +1,12 @@
 # this is about test and training for / about the psql course in coursera by. UM
+
+
+# now we try to do test some DB connection inside of the psql
+ 
+ for the connection we can use the info under Dr chuk website pg4e:
+
+ Host:     pg.pg4e.com 
+Port:     5432 
+Database: pg4e_e76eca22f4 
+User:     pg4e_e76eca22f4 
+Password:  (hide/show copy) 
