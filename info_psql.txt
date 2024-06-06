@@ -12,4 +12,4 @@ User:     pg4e_e76eca22f4
 Password:  (hide/show copy) 
 
 # now we can use the python for every one 
-it seem that i have problem to finde the online IDE forthe python under pythonforeveryone 
+ we can finde the Dashborad after register in website pythonanywhere.com (by Anaconda)
