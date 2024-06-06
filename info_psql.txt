@@ -23,3 +23,10 @@ now.... let do it weird !!!
 we can see  our name here: home/mhb1985 
 
 we can see that we cannnot run the both of code pwd or ls inside of our psql
+
+we have some another commend that we must notice that it will just do in the bash console:
+like:
+ls >> see the folder
+mkdir >> make directory 
+cd >> change directory and going inside of one folder
+cd ~ >> go up from one foder (in the mac we msut use  option + N keys together) 
