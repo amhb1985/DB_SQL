@@ -10,3 +10,5 @@ Port:     5432
 Database: pg4e_e76eca22f4 
 User:     pg4e_e76eca22f4 
 Password:  (hide/show copy) 
+
+# now we can use the python for every one 
