@@ -8,6 +8,7 @@
  Host:     pg.pg4e.com 
 Port:     5432 
 Database: pg4e_e76eca22f4 
+
 User:     pg4e_e76eca22f4 
 Password:  (hide/show copy) 
 
@@ -16,7 +17,9 @@ Password:  (hide/show copy)
 
  next we must use the console screen to do and test the codees again
 
-#after that we r going to the consule we r choosing the bash consule under the website :
+#after that we r going to the consule we r choosing the bash consule that is for
+Linux
+ under the website :
 
 now.... let do it weird !!!
 1. we try  with pwd >>>
@@ -30,3 +33,7 @@ ls >> see the folder
 mkdir >> make directory 
 cd >> change directory and going inside of one folder
 cd ~ >> go up from one foder (in the mac we msut use  option + N keys together) 
+
+
+so after that we r going again to the website python anywhere and we try to see or change some File
+inside of this website 
