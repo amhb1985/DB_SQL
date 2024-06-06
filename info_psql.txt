@@ -36,4 +36,14 @@ cd ~ >> go up from one foder (in the mac we msut use  option + N keys together)
 
 
 so after that we r going again to the website python anywhere and we try to see or change some File
-inside of this website 
+inside of this website  
+
+then we try the bash for Linux add this one to join it:
+ppsql -h pg.pg4e.com -p 5432 -U pg4e_e76eca22f4 pg4e_e76eca22f4
+
+and after that we must put our password.
+
+now we can seethe both of them running together 
+i mean the both of terminal online under 
+1.bash terminal 
+2,.psql terminal 
