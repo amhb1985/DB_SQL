@@ -62,7 +62,7 @@ so we can all of selected in our table
 so then we close the bash or psql with the \q 
  so for the create  a Table we can write this query under bash (Linux Terminal) pr we can do it
  under psql for (pgadmin)
- 
+
 CREATE TABLE pg4e_debug (
   id SERIAL,
   query VARCHAR(4096),
@@ -70,3 +70,7 @@ CREATE TABLE pg4e_debug (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY(id)
 );
+
+so after trying inside of bash Linux in theinternet i connot creat the Table 
+but after running my psql and joining to DB in the pg4e
+so i do the next query inside of them and it  be sucessfull 
