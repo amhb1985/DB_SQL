@@ -60,3 +60,4 @@ so we can all of selected in our table
 # after run the Queri we can see the both Termial working and show the result inside the table
 
 so then we close the bash or psql with the \q 
+
