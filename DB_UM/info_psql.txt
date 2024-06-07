@@ -74,3 +74,16 @@ CREATE TABLE pg4e_debug (
 so after trying inside of bash Linux in theinternet i connot creat the Table 
 but after running my psql and joining to DB in the pg4e
 so i do the next query inside of them and it  be sucessfull 
+
+so the secound Table is now in it , but still i use psql from my mac.
+Query is:
+CREATE TABLE pg4e_result (
+  id SERIAL,
+  link_id INTEGER UNIQUE,
+  score FLOAT,
+  title VARCHAR(4096),
+  note VARCHAR(4096),
+  debug_log VARCHAR(8192),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP
+);
