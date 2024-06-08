@@ -29,11 +29,9 @@ Programm:
 # 
 */
 
-
 -- ## TERMINAL commend ##
-pwd 
+--pwd 
 --  in just bashin Linux show where we are
-
 
 
 
@@ -62,6 +60,10 @@ SELCT * FROM users WHERE email='csev@umich.edu' ;
 
 --ORDER BY
 SELECT * FROM user ORDER BY email; 
+
+--LIKE
+SELECT * FROM user WHRER name LIKE '%g%' ; 
+
 
 
 
