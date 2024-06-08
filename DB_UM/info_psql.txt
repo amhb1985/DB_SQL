@@ -5,7 +5,7 @@
  
  for the connection we can use the info under Dr chuk website pg4e:
 
- Host:     pg.pg4e.com 
+Host:     pg.pg4e.com 
 Port:     5432 
 Database: pg4e_e76eca22f4 
 
