@@ -58,6 +58,11 @@ UPDATE users SET name='charles' WHERE email='csev@umich.edu' ;
 -- Rtrives a group of records 
 SELCT * FROM users WHERE email='csev@umich.edu' ;
 
+--the same rulls like another >>> withot where select all 
+
+--ORDER BY
+SELECT * FROM user ORDER BY email; 
+
 
 
 
