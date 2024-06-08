@@ -64,6 +64,13 @@ SELECT * FROM user ORDER BY email;
 --LIKE
 SELECT * FROM user WHRER name LIKE '%g%' ; 
 
+--LIMIT/ OFFSET 
+--the both of the order *before* / offset : start from 0
+SELECT * FROM users ORDER BY email DESK LIMIT 2;
+SELECT * FROM users ORDER BY email OFFSET 1 LIMIT 2;
+
+
+
 
 
 
