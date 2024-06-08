@@ -11,10 +11,13 @@
 with this we can cotinue next lines till
 */
 
--- ## TERMINAL commend ##
+-- Connect
 /* the first we must connet to our/one Database DB 
 We can under lots of progroms /terminal  for example:
 
+Internet:
+# 1. Anaconda (python anywhere website under)
+https://www.pythonanywhere.com
 
 Terminal : 
 # 1, Mac  psql (SQL Shell)
@@ -23,6 +26,40 @@ Terminal :
 Programm:
 # 1, PG Admin
 # 2, DB eaver
+# 
+*/
+
+
+-- ## TERMINAL commend ##
+pwd 
+--  in just bashin Linux show where we are
+
+
+
+
+-- 2nd week DB UM
+-- ## workin with Tables and SQL
+
+-- INSERT:
+-- statement inserr  ROW  in to a Table
+INSERT INTO users (name, email) VALUES ('chuck', csev@umich.edu); 
+
+--DELET:
+-- delete a row in a table 
+DELETE INTO users (name, email) VALUES ('chuck', csev@umich.edu); 
+
+-- NOTICE : without after users the row info >> delete all rows from users
+
+
+
+
+
+
+
+
+
+
+
 
 
 
