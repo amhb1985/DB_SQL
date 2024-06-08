@@ -47,8 +47,12 @@ INSERT INTO users (name, email) VALUES ('chuck', csev@umich.edu);
 --DELET:
 -- delete a row in a table 
 DELETE INTO users (name, email) VALUES ('chuck', csev@umich.edu); 
-
 -- NOTICE : without after users the row info >> delete all rows from users
+
+--UPDATE
+-- Allow the update pf the Field with  WHERE  clause
+UPDATE users SET name='charles' WHERE email='csev@umich.edu' ;
+
 
 
 
