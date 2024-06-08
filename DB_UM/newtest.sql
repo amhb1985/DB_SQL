@@ -69,6 +69,11 @@ SELECT * FROM user WHRER name LIKE '%g%' ;
 SELECT * FROM users ORDER BY email DESK LIMIT 2;
 SELECT * FROM users ORDER BY email OFFSET 1 LIMIT 2;
 
+--COUNT 
+SELECT COUNT(*) FROM users;
+--or
+SELECT COUNT(*) FROM users WHERE email='csev@umich.edu';
+
 
 
 
