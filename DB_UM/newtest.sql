@@ -26,7 +26,7 @@ Terminal :
 Programm:
 # 1, PG Admin
 # 2, DB eaver
-# 
+# 3, SQLdeveloper
 */
 
 -- ## TERMINAL commend ##
