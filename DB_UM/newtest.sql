@@ -52,6 +52,11 @@ DELETE INTO users (name, email) VALUES ('chuck', csev@umich.edu);
 --UPDATE
 -- Allow the update pf the Field with  WHERE  clause
 UPDATE users SET name='charles' WHERE email='csev@umich.edu' ;
+-- NOT: for the every row that where is same , one or hunderd of them
+
+-- SELECT
+-- Rtrives a group of records 
+SELCT * FROM users WHERE email='csev@umich.edu' ;
 
 
 
