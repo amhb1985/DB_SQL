@@ -79,7 +79,9 @@ SELECT COUNT(*) FROM users WHERE email='csev@umich.edu';
  DROP TABLE users;
  --CREATE one Table with the PRIMERY_KEY 
 CREATE TABLE users (
-id SERIAL, name VARCHAR (128), email VARCHAR (128) UNIQUE, PRIMARY
+id SERIAL, name VARCHAR (128),
+email VARCHAR (128) UNIQUE,
+PRIMARY KEY (id) ;
 
 
 
