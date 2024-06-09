@@ -84,6 +84,9 @@ email VARCHAR (128) UNIQUE,
 PRIMARY KEY (id) ;
 
 
+-- now speaking about INDEX in SQL
+
+
 
 
 
