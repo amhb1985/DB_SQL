@@ -77,9 +77,13 @@ SELECT COUNT(*) FROM users WHERE email='csev@umich.edu';
 -- the next Thema is. AUTO_INCREMENT
 --DELETE and drop one Table 
  DROP TABLE users;
- --CREATE one Table
+ --CREATE one Table with the PRIMERY_KEY 
 CREATE TABLE users (
 id SERIAL, name VARCHAR (128), email VARCHAR (128) UNIQUE, PRIMARY
+
+
+
+
 
 
 
