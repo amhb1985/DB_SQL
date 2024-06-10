@@ -112,6 +112,9 @@ vi library.csv
 -- with this one we can qexit from reading form :q
 :q
 
+-- whats diffrent between =>  AND ->
+--the first commend is like to ready but for the 2nd that maens that its not end and for END of Query
+-- we need ;
 
 
 
