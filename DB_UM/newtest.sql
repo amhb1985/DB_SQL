@@ -104,6 +104,11 @@ CREATE TABLE automagic (
     height FLOAT NOT NULL
 );
 
+-- and now about another query 
+-- its about reading one file >> vl
+\vl library.csv
+
+
 
 
 
