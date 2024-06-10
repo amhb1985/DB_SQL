@@ -120,8 +120,8 @@ vi library.csv
 -- we can see that with the \copy that means copy the file
 \copy track_raw(title,artist,album,count,rating,len) FROM 'library.csv' WITH DELIMITER ',' CSV;
 
-
-
+-- SELECT *
+select * from track_raw;
 
 
 
