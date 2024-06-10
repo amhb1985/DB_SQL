@@ -109,6 +109,9 @@ CREATE TABLE automagic (
 vi library.csv
 
 
+-- with this one we can qexit from reading form :q
+:q
+
 
 
 
