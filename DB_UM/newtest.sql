@@ -121,6 +121,7 @@ vi library.csv
 \copy track_raw(title,artist,album,count,rating,len) FROM 'library.csv' WITH DELIMITER ',' CSV;
 
 -- SELECT *
+-- we can see all of the trac_row table
 select * from track_raw;
 
 
