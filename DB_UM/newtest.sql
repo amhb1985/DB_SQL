@@ -86,6 +86,24 @@ PRIMARY KEY (id) ;
 
 -- now speaking about INDEX in SQL
 
+-- the test about vreate table 
+--
+/*
+In this assignment you will create a table, and the autograder will insert a few rows to test your schema.
+
+ Create a table named automagic with the following fields: 
+
+An id field that is an auto-incrementing serial field. 
+A name field that allows up to 32 characters but no more. This field is required. 
+A height field that is a floating point number that is required. 
+*/
+
+CREATE TABLE automagic (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(32) NOT NULL,
+    height FLOAT NOT NULL
+);
+
 
 
 
