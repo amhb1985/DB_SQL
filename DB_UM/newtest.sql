@@ -128,6 +128,9 @@ select * from track_raw;
 --we can see the count of all from the table
 select count (*) from track_raw;
 
+-- SELECT one exact title from Table 
+SELECT title, album FROM track_raw ORDER BY title LIMIT 3;
+
 
 
 
