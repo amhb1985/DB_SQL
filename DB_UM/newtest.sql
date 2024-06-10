@@ -106,7 +106,7 @@ CREATE TABLE automagic (
 
 -- and now about another query 
 -- its about reading one file >> vl
-\vl library.csv
+vi library.csv
 
 
 
