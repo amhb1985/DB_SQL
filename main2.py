@@ -164,6 +164,9 @@ session.commit()
 #leider der Adresees und der Things table sind nicht in der DB
 # ich werde noch in andere datei probieren.
 
+#test
+
+
 
 
 
