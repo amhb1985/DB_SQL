@@ -124,6 +124,10 @@ vi library.csv
 -- we can see all of the trac_row table
 select * from track_raw;
 
+-- SELCT COUNT(*)
+--we can see the count of all from the table
+select count (*) from track_raw;
+
 
 
 
