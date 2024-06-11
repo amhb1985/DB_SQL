@@ -309,6 +309,9 @@ JOIN genre ON track-genre_id = genre.id
 JOIN album ON track.albumid = album.id
 JOIN artist ON album.artist_id = artist.id;
 
+-- how we can delet one DATA from table:
+DELETE FROM Genre WHERE
+
 
 
 
