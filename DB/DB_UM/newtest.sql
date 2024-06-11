@@ -331,7 +331,14 @@ CREATE TABLE course (
 ) ;
 
 -- II. Table member
--- then we must create one 
+-- then we must create one member table that between 2 of further Tables
+CREATE TABLE member (
+    student_id INTEGER REFERENCES student (id) ON DELETE CASCADE, 
+    course_id INTEGER REFERENCES course(id) ON DELETE CASCADE, 
+    role INTEGER,
+    PRIMARY KEY (student_id, course_id)
+) ;
+
 
 
 
