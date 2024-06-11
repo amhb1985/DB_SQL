@@ -231,6 +231,12 @@ CREATE TABLE track (
 
 -- III. after that create Table 
 -- now we are going to insert data in our Tables
+-- we must notice taht befor that insert q we must first join in our DATABASE! probably: cd music we can see the directoy of our DB music=> 
+
+INSERT INTO artist (name) VALUES ('Led Zeppelin');
+INSERI INTO artist (name) VALUES ('AC/DC');
+
+--
 
 
 
