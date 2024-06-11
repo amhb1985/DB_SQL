@@ -270,7 +270,14 @@ VALUES ( 'Who Made Who', 5, 207, 0, 1, 2) ;
 SELECT * FROM track;
 
 
-
+-- Getting JOIN between tables in one DB:
+/*
+Relational Power
+• By removing the replicated data and replacing it with references to 
+a single copy of each bit of data, we build a "web" of information that the relational database
+ can read through very quickly - even for very large amounts of data.
+• Often when you want some data it comes from a number of tables linked by these foreign keys.
+*/
 
 
 
