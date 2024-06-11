@@ -286,14 +286,21 @@ The JOIN Operation
 -- so again we must inside of DB :
 -- select >> table >> . >>> coulum,
 -- FROM witch tables?? 
+
+-- JOIN
 SELECT album.title, artist.name
 FROM album JOIN artist
 ON album.artist_id = artist.id;
 
+
+-- INNER JOIN 
 SELECT album.title, album.artist_id, artist.id, artist. name
 FROM album INNER JOIN artist 
 ON album.artist_id = artist.id;
 
+-- CROSS JOIN
+SELECT track.title, track.genre_id, genre.id, genre.name
+FROM track CROSS JOIN genre;
 
 
 
