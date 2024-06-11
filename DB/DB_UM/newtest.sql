@@ -367,5 +367,14 @@ INSERT INTO member(student_id, course_id, role) VALUES (3, 3, 0) ;
 SELECT * FROM member;
 
 
+-- III. SELECT and JOIN PK and FK
+SELECT student. name, member.role, course. title 
+FROM student
+JOIN member ON member.student_ id = student.id
+JOIN course ON member.course_ id = course.id
+ORDER BY course.title, member.role DESC, student.name;
+
+
+
 
 
