@@ -354,10 +354,17 @@ INSERT INTO course (title) VALUES ('SQL');
 INSERT INTO course (title) VALUES ('PHP');
 SELECT * FROM course;
 
+-- II. B Insert Memberships
+INSERT INTO member(student_id, course_id, role) VALUES (1, 1, 1) ;
+INSERT INTO member(student_id, course_id, role) VALUES (2, 1, 0) ;
+INSERT INTO member(student_id, course_id, role) VALUES (3, 1, 0) ;
 
+INSERT INTO member(student_id, course_id, role) VALUES (1, 2, 0) ;
+INSERT INTO member(student_id, course_id, role) VALUES (2, 2, 1) ;
 
-
-
+INSERT INTO member(student_id, course_id, role) VALUES (2, 3, 1) ;
+INSERT INTO member(student_id, course_id, role) VALUES (3, 3, 0) ;
+SELECT * FROM member;
 
 
 
