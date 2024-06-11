@@ -171,7 +171,13 @@ There is *tons* of database theory - way too much to understand without excessiv
 • Do not replicate data. Instead, reference data. Point at data.
 • Use integers for keys and for references.
 • Add a special "key" column to each table, which you will make references to.
+*/
+--Integer Reference Pattern:
+--we use this query for the select from id as PK: 
+music=> SELECT * FROM artist;
 
+-- and for select FK we use this query to join in it:
+music=> SELECT * FROM album;
 
 
 
