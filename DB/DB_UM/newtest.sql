@@ -161,6 +161,19 @@ SELECT title, album FROM track_raw ORDER BY title LIMIT 3;
 • Relationships that are based on matching string fields are less efficient than integers.
 */
 
+/*
+
+-- Foreign Key
+
+-- DATABASE Normalization (3NF)
+
+There is *tons* of database theory - way too much to understand without excessive predicate calculus
+• Do not replicate data. Instead, reference data. Point at data.
+• Use integers for keys and for references.
+• Add a special "key" column to each table, which you will make references to.
+
+
+
 
 
 
