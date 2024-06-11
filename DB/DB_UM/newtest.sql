@@ -193,16 +193,37 @@ postgres=#
 
 -- we r creating now 2 diffrent Tables as artist and album:
 -- notice that Logically Key is UNIQUE
+--1. artist: 
 CREATE TABLE artist (
     id SERIAL,
     name VARCHAR (128) UNIQUE,
     PRIMARY KEY (id)
 );
 
+--2. album:
 CREATE TABLE album (
     id SERIAL,  
     title VARCHAR (128) UNIQUR,
     artist id INTEGER REFERENCES artist(id) ON DELETE CASCADE,
+    PRIMARY KEY (id)
+);
+
+--3. genre:
+CREATE TABLE genre (
+    id SERIAL,
+    name VARCHAR (128) UNIQUE,
+    PRIMARY KEY (id)
+) ;
+
+--4. Track:
+CREATE TABLE track (
+    id SERIAL, 
+    title VARCHAR (128) , 
+    len INTEGER, rating INTEGER, 
+    count INTEGER,
+    album_id INTEGER REFERENCES album(id) ON DELETE CASCADE, 
+    genre_id INTEGER REFERENCES genre (id) ON DELETE CASCADE, 
+    UNIQUE (title, album_id),
     PRIMARY KEY (id)
 );
 
