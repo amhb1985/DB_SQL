@@ -312,6 +312,27 @@ JOIN artist ON album.artist_id = artist.id;
 -- how we can delet one DATA from table:
 DELETE FROM Genre WHERE
 
+--week 
+--MANY to MANY RELATIONs
+-- stert with a Fresh DB
+
+--I. create Tables
+CREATE TABLE student (
+    id SERIAL,
+    name VARCHAR ( 128) ,
+    email VARCHAR (128) UNIQUE,
+    PRIMARY KEY (id)
+) ;
+
+CREATE TABLE course (
+    id SERIAL,
+    title VARCHAR (128) UNIQUE, 
+    PRIMARY KEY (id)
+) ;
+
+-- II. Table member
+-- then we must create one 
+
 
 
 
