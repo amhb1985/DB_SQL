@@ -180,6 +180,15 @@ music=> SELECT * FROM artist;
 music=> SELECT * FROM album;
 
 
+--Creating our Music Database sudo -u postgres psql postgres
+-- first we commend to psql that we want a super user. sudo -u
+sudo -u postgres psql postgres
+
+-- next we create DB wth >> NAME , >> WITH OWNER  and >> ENCODING:
+postgres=# CREATE DATABASE music
+WITH OWNER 'pg4e' ENCODING 'UTF8';
+CREATE DATABASE
+postgres=#
 
 
 
