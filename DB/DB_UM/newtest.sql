@@ -192,7 +192,7 @@ postgres=#
 
 
 -- we r creating now 2 diffrent Tables as artist and album:
-
+-- notice that Logically Key is UNIQUE
 CREATE TABLE artist (
     id SERIAL,
     name VARCHAR (128) UNIQUE,
@@ -200,9 +200,13 @@ CREATE TABLE artist (
 );
 
 CREATE TABLE album (
-id SERIAL, title VARCHAR (128) UNIQUR,
-artist id INTEGER REFERENCES artist(id) ON DELETE CASCADE, PRIMARY KEY (id)
-) #
+    id SERIAL,  
+    title VARCHAR (128) UNIQUR,
+    artist id INTEGER REFERENCES artist(id) ON DELETE CASCADE,
+    PRIMARY KEY (id)
+);
+
+
 
 
 
