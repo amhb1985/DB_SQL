@@ -368,11 +368,14 @@ SELECT * FROM member;
 
 
 -- III. SELECT and JOIN PK and FK
-SELECT student. name, member.role, course. title 
+SELECT student.name, member.role, course.title 
 FROM student
-JOIN member ON member.student_ id = student.id
-JOIN course ON member.course_ id = course.id
+JOIN member ON member.student_id = student.id
+JOIN course ON member.course_id = course.id
 ORDER BY course.title, member.role DESC, student.name;
+
+
+
 
 
 
