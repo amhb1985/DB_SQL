@@ -191,6 +191,19 @@ CREATE DATABASE
 postgres=#
 
 
+-- we r creating now 2 diffrent Tables as artist and album:
+
+CREATE TABLE artist (
+    id SERIAL,
+    name VARCHAR (128) UNIQUE,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE album (
+id SERIAL, title VARCHAR (128) UNIQUR,
+artist id INTEGER REFERENCES artist(id) ON DELETE CASCADE, PRIMARY KEY (id)
+) #
+
 
 
 
