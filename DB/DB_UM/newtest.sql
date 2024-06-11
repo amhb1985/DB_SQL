@@ -151,6 +151,16 @@ SELECT title, album FROM track_raw ORDER BY title LIMIT 3;
 --3. Foreign key
 
 
+-- the most important Key is the Primary key bcos we have just one for any table
+-- we have lot of convantion that define some standrad for the PK (primary key)
+-- but generral  id is our primary key
+/*
+-- every PK has Rules:
+. Never use your logical key as the primary key.
+• Logical keys can and do change, albeit slowly.
+• Relationships that are based on matching string fields are less efficient than integers.
+*/
+
 
 
 
