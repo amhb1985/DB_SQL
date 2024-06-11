@@ -233,10 +233,19 @@ CREATE TABLE track (
 -- now we are going to insert data in our Tables
 -- we must notice taht befor that insert q we must first join in our DATABASE! probably: cd music we can see the directoy of our DB music=> 
 
+-- ALBUM TABLE
 INSERT INTO artist (name) VALUES ('Led Zeppelin');
 INSERI INTO artist (name) VALUES ('AC/DC');
 
---
+-- after tahat we try to see the result with q:
+SELECT * FROM artist;
+
+-- ARTIST TABLE
+-- and then we r countinue with INSERT to the album Table:
+INSERT INTO album (title, artist_id) VALUES ('Who Made who', 2);
+INSERI INTO album (title, artist_id) VALUES ('IV', 1);
+
+SELECT * FROM album;
 
 
 
