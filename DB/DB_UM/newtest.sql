@@ -133,6 +133,13 @@ SELECT title, album FROM track_raw ORDER BY title LIMIT 3;
 
 -- so for the next step we ttry to the test and learn with Track_row.csv data that we added before:
 
+-- so now we wanna create a new table from our source as Track_raw 
+-- so then we need some palan for our table (here as track_row)
+--1. Track
+--2. Titile
+--3. Ganre
+--4. Number_place
+--5. Rating
 
 
 
