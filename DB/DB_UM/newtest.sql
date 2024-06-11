@@ -231,7 +231,8 @@ CREATE TABLE track (
 
 -- III. after that create Table 
 -- now we are going to insert data in our Tables
--- we must notice taht befor that insert q we must first join in our DATABASE! probably: cd music we can see the directoy of our DB music=> 
+-- we must notice taht befor that insert q we must first join in our DATABASE!
+-- probably: cd music we can see the directoy of our DB music=> 
 
 -- ALBUM TABLE
 INSERT INTO artist (name) VALUES ('Led Zeppelin');
@@ -247,6 +248,27 @@ INSERI INTO album (title, artist_id) VALUES ('IV', 1);
 
 SELECT * FROM album;
 
+-- GENRE TABLE
+INSERT INTO genre (name) VALUES ('Rock');
+INSERI INTO genre (name) VALUES ( 'Metal');
+
+SELECT * FROM genre;
+
+-- TRACK TABLE 
+INSERT INTO track (title, rating, len, count, album_id, genre_id)
+VALUES ( 'Black Dog', 5, 297, 0, 2, 1) ;
+
+INSERT INTO track (title, rating, len, count, album_.
+_id, genre_ id)
+VALUES ('Stairway', 5, 482, 0, 2, 1) ;
+
+INSERT INTO track (title, rating, len, count, album_id, genre_id)
+VALUES ('About to Rock', 5, 313, 0, 1, 2); 
+
+INSERT INTO track (title, rating, len, count, album_id, genre_id)
+VALUES ( 'Who Made Who', 5, 207, 0, 1, 2) ;
+
+SELECT * FROM track;
 
 
 
