@@ -87,3 +87,9 @@ CREATE TABLE pg4e_result (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP
 );
+
+
+## so now we can speack about the structure of the DB in the DB
+that means: art form :
+
+the Important things that the DB use some KEYS as Primary KEY and Foreign KEY
