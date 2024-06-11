@@ -277,9 +277,18 @@ Relational Power
 a single copy of each bit of data, we build a "web" of information that the relational database
  can read through very quickly - even for very large amounts of data.
 • Often when you want some data it comes from a number of tables linked by these foreign keys.
+
+
+The JOIN Operation
+• The JOIN operation links across several tables as part of a SELECT operation.
+• You must tell the JOIN how to use the keys that make the connection between the tables using an ON clause.
 */
-
-
+-- so again we must inside of DB :
+-- select >> table >> . >>> coulum,
+-- FROM witch tables?? 
+SELECT album.title, artist.name
+FROM album JOIN artist
+ON album.artist_id = artist.id;
 
 
 
