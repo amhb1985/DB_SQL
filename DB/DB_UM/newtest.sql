@@ -304,6 +304,7 @@ FROM track CROSS JOIN genre;
 
 --It Can Get Complex.
 SELECT track.title, artist.name, album.title, genre.name
+FROM track
 JOIN genre ON track-genre_id = genre.id
 JOIN album ON track.albumid = album.id
 JOIN artist ON album.artist_id = artist.id;
