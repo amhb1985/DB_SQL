@@ -131,6 +131,9 @@ select count (*) from track_raw;
 -- SELECT one exact title from Table 
 SELECT title, album FROM track_raw ORDER BY title LIMIT 3;
 
+-- so for the next step we ttry to the test and learn with Track_row.csv data that we added before:
+
+
 
 
 
