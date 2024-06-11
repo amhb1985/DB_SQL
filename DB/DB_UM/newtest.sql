@@ -184,6 +184,7 @@ music=> SELECT * FROM album;
 -- first we commend to psql that we want a super user. sudo -u
 sudo -u postgres psql postgres
 
+-- I. Create DB
 -- next we create DB wth >> NAME , >> WITH OWNER  and >> ENCODING:
 postgres=# CREATE DATABASE music
 WITH OWNER 'pg4e' ENCODING 'UTF8';
@@ -191,7 +192,8 @@ CREATE DATABASE
 postgres=#
 
 
--- we r creating now 2 diffrent Tables as artist and album:
+--II. Create Tables
+-- we r creating now 4 diffrent Tables as artist and album:
 -- notice that Logically Key is UNIQUE
 --1. artist: 
 CREATE TABLE artist (
@@ -227,6 +229,8 @@ CREATE TABLE track (
     PRIMARY KEY (id)
 );
 
+-- III. after that create Table 
+-- now we are going to insert data in our Tables
 
 
 
