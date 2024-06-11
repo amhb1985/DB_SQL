@@ -331,13 +331,17 @@ CREATE TABLE course (
 ) ;
 
 -- II. Table member
--- then we must create one member table that between 2 of further Tables
+-- then we must create one member table that between 
+-- 2 of further Tables and have 2 FK (Foreign Keys)as
+-- student_id and course_id
+-- NOTE: the PK(Primary_key) is COMBINATION of 2 coulums!
 CREATE TABLE member (
     student_id INTEGER REFERENCES student (id) ON DELETE CASCADE, 
     course_id INTEGER REFERENCES course(id) ON DELETE CASCADE, 
     role INTEGER,
     PRIMARY KEY (student_id, course_id)
 ) ;
+
 
 
 
