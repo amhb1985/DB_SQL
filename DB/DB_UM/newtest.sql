@@ -142,6 +142,15 @@ SELECT title, album FROM track_raw ORDER BY title LIMIT 3;
 --5. Rating
 
 
+-- and  now we are going to another important Thema
+--KEY
+-- we have 3 kinde of KEY:
+
+--1. Primery key
+--2. Logical key
+--3. Foreign key
+
+
 
 
 
