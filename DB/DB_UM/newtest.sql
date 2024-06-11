@@ -173,11 +173,11 @@ There is *tons* of database theory - way too much to understand without excessiv
 • Add a special "key" column to each table, which you will make references to.
 */
 --Integer Reference Pattern:
---we use this query for the select from id as PK: 
-music=> SELECT * FROM artist;
+--we use this query for the select from id as PK: in music=> 
+SELECT * FROM artist;
 
 -- and for select FK we use this query to join in it:
-music=> SELECT * FROM album;
+SELECT * FROM album;
 
 
 --Creating our Music Database sudo -u postgres psql postgres
@@ -186,11 +186,10 @@ sudo -u postgres psql postgres
 
 -- I. Create DB
 -- next we create DB wth >> NAME , >> WITH OWNER  and >> ENCODING:
-postgres=# CREATE DATABASE music
+--postgres=#  we r now in postgres!
+CREATE DATABASE music
 WITH OWNER 'pg4e' ENCODING 'UTF8';
 CREATE DATABASE
-postgres=#
-
 
 --II. Create Tables
 -- we r creating now 4 diffrent Tables as artist and album:
