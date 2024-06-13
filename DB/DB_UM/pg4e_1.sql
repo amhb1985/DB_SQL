@@ -374,6 +374,8 @@ JOIN member ON member.student_id = student.id
 JOIN course ON member.course_id = course.id
 ORDER BY course.title, member.role DESC, student.name;
 
+--just _comment_test and train again
+
 
 
 
