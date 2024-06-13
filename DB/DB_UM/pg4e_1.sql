@@ -116,6 +116,7 @@ vi library.csv
 --the first commend is like to ready but for the 2nd that maens that its not end and for END of Query
 -- we need ;
 
+--test again
 -- COPY 
 -- we can see that with the \copy that means copy the file
 \copy track_raw(title,artist,album,count,rating,len) FROM 'library.csv' WITH DELIMITER ',' CSV;
