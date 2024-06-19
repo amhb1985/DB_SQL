@@ -25,3 +25,17 @@ ALTER TABLE fav DROP COLUMN oops;
 ALTER TABLE post ALTER COLUMN content TYPE TEXT;
 ALTER TABLE fav ADD COLUMN howmuch INTEGER;
 
+-- now we r going to another thema Dates!
+-- we have some kind of diffrent dates type
+'''
+Date Types (Review)
+DATE - 'YYYY-MM-DD'
+TIME - 'HH: MM:SS'
+TIMESTAMP - 'YYYY-MM-DD HH:MM:SS'
+(4713 BC, 294276 AD)
+TIMESTAMPTZ - "TIMESTAMP WITH TIME ZONE"
+Built-in PostgreSQL function NOW()
+'''
+
+
+
