@@ -20,4 +20,8 @@ create table fav (
 ALTER TABLE fav DROP COLUMN oops;
 
 
+-- Add , Drop , Alter coöumns
+ALTER TABLE fav DROP COLUMN oops;
+ALTER TABLE post ALTER COLUMN content TYPE TEXT;
+ALTER TABLE fav ADD COLUMN howmuch INTEGER;
 
