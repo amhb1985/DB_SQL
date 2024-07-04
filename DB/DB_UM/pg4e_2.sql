@@ -72,8 +72,19 @@ updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW ( ), UNIQUE (post_ id, account_id), 
  '''
 select * from pg_timezone_names;
 
- 
 
+
+-- CASTING
+'''
+Casting to different types
+• We use the phrase 'casting' to mean convert from one type to another
+• Postgres has several forms of casting
+ '''
+SELECT NOW () : : DATE, CAST(NOW () AS DATE), CAST (NOW () AS TIME) ;
+
+
+-- NOte: after runing the above Query iv finde that inside of my psql i must correct to another :
+SELECT NOW () DATE, CAST(NOW () AS DATE), CAST (NOW () AS TIME) ;
 
 
 
