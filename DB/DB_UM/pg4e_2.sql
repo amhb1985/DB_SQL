@@ -36,11 +36,6 @@ TIMESTAMP - 'YYYY-MM-DD HH:MM:SS'
 TIMESTAMPTZ - "TIMESTAMP WITH TIME ZONE"
 Built-in PostgreSQL function NOW()
 '''
-
--- test update
--- wieder test update
-
-
 -- Day Type(review)
 '''
  - Date
@@ -65,14 +60,11 @@ created
 _at TIMESTAMPTZ NOT NULL DEFAULT NOW (),
 updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW ( ), UNIQUE (post_ id, account_id), PRIMARY KEY (id)
 ) i
-
-
+ 
 ''' PostgreSQL time zone:
  we can see the all of time zone with this query:
  '''
 select * from pg_timezone_names;
-
-
 
 -- CASTING
 '''
@@ -85,6 +77,10 @@ SELECT NOW () : : DATE, CAST(NOW () AS DATE), CAST (NOW () AS TIME) ;
 
 -- NOte: after runing the above Query iv finde that inside of my psql i must correct to another :
 SELECT NOW () DATE, CAST(NOW () AS DATE), CAST (NOW () AS TIME) ;
+
+--Intervals
+-- • We can do date interval arithmetic
+SELECT NOW (), NOW () - INTERVAL '2 days', (NOW() - INTERVAL '2 days'):: DATE;
 
 
 
