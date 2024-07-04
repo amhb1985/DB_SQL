@@ -82,6 +82,16 @@ SELECT NOW () DATE, CAST(NOW () AS DATE), CAST (NOW () AS TIME) ;
 -- • We can do date interval arithmetic
 SELECT NOW (), NOW () - INTERVAL '2 days', (NOW() - INTERVAL '2 days'):: DATE;
 
+-- Using date_trunc()
+-- • Sometimes we want to discard some of the accuracy that is in a TIMESTAMP
+SELECT id, content, created_at FROM comment WHERE created_at >= DATE_TRUNC ('day', NOW () )
+AND created_at < DATE_TRUNC ('day', NOW() + INTERVAL '1 day') ;
+
+-- it wil not working and have problem with 'comment'
+
+
+
+
 
 
 
