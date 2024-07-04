@@ -41,3 +41,19 @@ Built-in PostgreSQL function NOW()
 -- wieder test update
 
 
+-- Day Type(review)
+'''
+ - Date
+ - Time
+ - Timestamp
+ - Timstamotz
+ - Built in psql >> NOW()
+'''
+
+
+
+
+
+
+
+
