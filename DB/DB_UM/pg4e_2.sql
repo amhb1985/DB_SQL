@@ -48,7 +48,30 @@ Built-in PostgreSQL function NOW()
  - Timestamp
  - Timstamotz
  - Built in psql >> NOW()
+
+
+ Setting default values
+• We can save some code by auto-populating date fields when a row is INSERTed
+• We will auto-set on UPDATEs later...
+
 '''
+-- for example:
+
+CREATE TABLE fav (
+id SERIAL, oops TEXT, -- Will remove later with ALTER
+post_ id INTEGER REFERENCES post (id) ON DELETE CASCADE, account
+_id INTEGER REFERENCES account (id) ON DELETE CASCADE,
+created
+_at TIMESTAMPTZ NOT NULL DEFAULT NOW (),
+updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW ( ), UNIQUE (post_ id, account_id), PRIMARY KEY (id)
+) i
+
+
+
+
+
+
+
 
 
 
