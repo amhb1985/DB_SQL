@@ -67,7 +67,12 @@ updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW ( ), UNIQUE (post_ id, account_id), 
 ) i
 
 
+''' PostgreSQL time zone:
+ we can see the all of time zone with this query:
+ '''
+select * from pg_timezone_names;
 
+ 
 
 
 
