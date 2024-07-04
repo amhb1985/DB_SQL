@@ -89,7 +89,12 @@ AND created_at < DATE_TRUNC ('day', NOW() + INTERVAL '1 day') ;
 
 -- it wil not working and have problem with 'comment'
 
+-- Performance: Table Scans
+-- • Not all equivalent queries have the same performance
+SELECT id, content, created_at FROM comment
+WHERE created_at:: DATE = NOW () : : DATE;
 
+-- it wil not working and have problem with ': :'
 
 
 
