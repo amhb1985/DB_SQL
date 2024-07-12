@@ -377,6 +377,9 @@ ORDER BY course.title, member.role DESC, student.name;
 
 --just _comment_test and train again
 --update_test
+-- update_test
+
+
 
 
 
